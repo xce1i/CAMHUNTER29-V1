@@ -8,54 +8,38 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/MrRedRaccoon/CAMHUNTER-29)
 [![Requirements](https://img.shields.io/badge/Requirements-nmap%20%7C%20ffmpeg%20%7C%20arp--scan-orange)](README.md)
 
-**CAMHUNTER-29** is a sophisticated security reconnaissance tool designed for authorized penetration testing and vulnerability assessment of IoT surveillance systems. This automated framework identifies, classifies, and analyzes network-connected cameras, generating comprehensive security reports for legitimate security audits.
+# CAMHUNTER-29
 
----
+CAMHUNTER-29 is a network reconnaissance and analysis tool designed to identify and enumerate IP-based camera devices within authorized environments.  
+It is developed as part of the BLACKNET framework for security research and defensive testing.
 
-## 📋 Table of Contents
+## Overview
 
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Output](#-output)
-- [Legal Notice](#⚠️-legal--ethical-notice)
-- [Screenshots](#-screenshots)
-- [Detection Methods](#-detection-methods)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
+CAMHUNTER-29 performs automated scanning, detection, and reporting of network camera endpoints.  
+The tool generates structured reports and provides technical insights into discovered devices for security assessment purposes.
 
----
+## Features
 
-## ✨ Features
+- Network camera discovery and enumeration
+- Detection of accessible stream endpoints (RTSP/HTTP)
+- Vulnerability indication based on exposure patterns
+- Automated HTML report generation
+- Structured logging and scan statistics
+- Modular architecture for future extensions
 
-### 🎯 **Core Capabilities**
-- **Network Discovery** - Automated scanning of local networks for active devices
-- **Camera Identification** - Intelligent detection of IP cameras, DVRs, and NVRs
-- **Vulnerability Assessment** - Testing for common security weaknesses
-- **Credential Testing** - Automatic testing against default camera credentials
-- **Stream Detection** - Identification of exposed RTSP/HTTP video streams
+## Architecture
 
-### 📊 **Reporting & Output**
-- **Professional HTML Reports** - Detailed security findings with metadata
-- **Playlist Generation** - M3U playlists for easy stream access
-- **Logging System** - Complete audit trail of all scanning activities
-- **Visual Interface** - Color-coded terminal output with real-time status
+The tool operates in multiple phases:
 
-### 🔧 **Technical Specifications**
-- **Protocol Support**: HTTP, RTSP, RTMP, ONVIF (partial)
-- **Port Scanning**: 80, 443, 554, 37777, 8080, and more
-- **Credential Database**: 15+ common default camera credentials
-- **Vendor Detection**: MAC-based camera manufacturer identification
-- **Stream Paths**: 16+ common RTSP URL patterns
+1. Target discovery
+2. Endpoint enumeration
+3. Stream analysis
+4. Report generation
 
----
+Each phase is designed to ensure clarity, accuracy, and reproducibility of scan results.
 
-## 🛠️ Installation
+## Usage
 
-### Prerequisites
 ```bash
-# Required tools
-sudo apt-get update
-sudo apt-get install -y nmap arp-scan ffmpeg curl
+chmod +x camhunter.sh
+./camhunter.sh
