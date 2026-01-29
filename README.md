@@ -49,7 +49,7 @@ chmod +x camhunter.sh
 ```
 ### **Developer Info:**
 - **Author:** Mr. RedRaccoon
-- **Release Date:** 1/28/2025
+- **Release Date:** 1/30/2026
 - **Contact:**
   - **Instagram:** [@0.1exe](https://www.instagram.com/0.1exe/)
   - **Telegram:** [@0.1exe](https://t.me/cd_0xe1i)
