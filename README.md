@@ -1,4 +1,4 @@
-# 🎯 CAMHUNTER-29
+# 🎯 CAMHUNTER29-V1
 
 > **Advanced Network Camera Reconnaissance & Security Assessment Tool**
 
@@ -8,14 +8,14 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/MrRedRaccoon/CAMHUNTER-29)
 [![Requirements](https://img.shields.io/badge/Requirements-nmap%20%7C%20ffmpeg%20%7C%20arp--scan-orange)](README.md)
 
-# CAMHUNTER-29
+# CAMHUNTER29-V1
 
-CAMHUNTER-29 is a network reconnaissance and analysis tool designed to identify and enumerate IP-based camera devices within authorized environments.  
+CAMHUNTER29 is a network reconnaissance and analysis tool designed to identify and enumerate IP-based camera devices within authorized environments.  
 It is developed as part of the BLACKNET framework for security research and defensive testing.
 
 ## Overview
 
-CAMHUNTER-29 performs automated scanning, detection, and reporting of network camera endpoints.  
+CAMHUNTER29 performs automated scanning, detection, and reporting of network camera endpoints.  
 The tool generates structured reports and provides technical insights into discovered devices for security assessment purposes.
 
 ## Features
