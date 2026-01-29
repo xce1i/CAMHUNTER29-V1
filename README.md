@@ -47,7 +47,7 @@ git clone https://github.com/xce1i/CAMHUNTER29-V1/
 chmod +x camhunter.sh
 ./camhunter.sh
 ```
-### **Developer Info:**
+## **Developer Info:**
 - **Author:** Mr. RedRaccoon
 - **Release Date:** 1/30/2026
 - **Contact:**
