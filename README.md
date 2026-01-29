@@ -8,7 +8,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/MrRedRaccoon/CAMHUNTER-29)
 [![Requirements](https://img.shields.io/badge/Requirements-nmap%20%7C%20ffmpeg%20%7C%20arp--scan-orange)](README.md)
 
-# CAMHUNTER29-V1
+# The CAMHUNTER29-V1
 
 > CAMHUNTER29 is a network reconnaissance and analysis tool designed to identify and enumerate IP-based camera devices within authorized environments.  
 It is developed as part of the BLACKNET framework for security research and defensive testing.
@@ -46,4 +46,11 @@ Each phase is designed to ensure clarity, accuracy, and reproducibility of scan 
 git clone https://github.com/xce1i/CAMHUNTER29-V1/
 chmod +x camhunter.sh
 ./camhunter.sh
-
+```
+### **Developer Info:**
+- **Author:** Mr. RedRaccoon
+- **Release Date:** 1/28/2025
+- **Contact:**
+  - **Instagram:** [@0.1exe](https://www.instagram.com/0.1exe/)
+  - **Telegram:** [@0.1exe](https://t.me/cd_0xe1i)
+- **Website:** [here](https://0xe1i.blogspot.com/)
