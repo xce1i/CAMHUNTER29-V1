@@ -53,4 +53,4 @@ chmod +x camhunter.sh
 - **Contact:**
   - **Instagram:** [@0.1exe](https://www.instagram.com/0.1exe/)
   - **Telegram:** [@0.1exe](https://t.me/cd_0xe1i)
-- **Website:** [here](https://0xe1i.blogspot.com/)
+- **Website:** [https://0xe1i.blogspot.com/](https://0xe1i.blogspot.com/)
